@@ -1,16 +1,13 @@
 # DiagnosAI
-Building AI course project : AI Health Navigator for Rare Genetic Disease Detection and Treatment Guidance
+Building AI Course Project : AI Health Navigator for Rare Genetic Disease Detection and Treatment Guidance
 
 ## Summary
 
-Millions of individuals suffer from chronic, unexplained, or misdiagnosed conditions, especially rare, autoimmune, and genetic diseases. Traditional diagnostic pathways often fail due to overlapping symptoms, fragmented data, and a lack of awareness, resulting in prolonged suffering and ineffective treatments. DiagnosAI is an AI-powered platform designed to help individuals actively participate in their diagnostic journey by analyzing symptoms, medical histories, genetic data, and drug experiences.
+DiagnosAI is an AI-powered health navigator that aims to help individuals suffering from rare genetic diseases and misdiagnosed conditions by analyzing their symptoms, genetic history, medical data, and drug experiences. It empowers patients to actively participate in their diagnostic journey, provides personalized recommendations, and guides them toward effective treatments.
 
-The platform’s goal is to enhance early detection, provide personalized diagnostic recommendations, guide patients toward appropriate specialists, and assist in identifying effective treatments. The system encourages patients to engage in their health discovery process, empowering them to make informed decisions about their treatment options and medical care.
+Millions of individuals suffer from chronic, unexplained, or misdiagnosed conditions, especially rare, autoimmune, and genetic diseases. Traditional diagnostic pathways often fail due to overlapping symptoms, fragmented data, and a lack of awareness, resulting in prolonged suffering and ineffective treatments. DiagnosAI aims to bridge this gap by providing early detection, symptom tracking, and expert-recommended treatment pathways.
 
 ## Background
-
-### Problem
-  Chronic, unexplained, and misdiagnosed conditions often lead to years of frustration and poor health outcomes. Rare diseases, autoimmune disorders, and genetic conditions are difficult to diagnose because their symptoms often overlap with more common illnesses. This results in a delayed diagnosis, incorrect treatments, and unnecessary suffering. DiagnosAI aims to bridge this gap by providing early detection, symptom tracking, and expert-recommended treatment pathways.
   
 ### Personal Motivation
 The inspiration for this project came from my own personal experience with misdiagnoses. After being misdiagnosed with various common conditions such as irritable bowel syndrome, migraines, and others since childhood, I was finally diagnosed at the age of 39 with a rare form of Familial Mediterranean Fever (FMF) through Next Generation Sequencing (NGS), after enduring years of suffering. Due to the late diagnosis, my body had already been irreparably damaged, and the high inflammation caused by the condition led to autoimmune diseases, psoriasis, brain issues, and many other complications. This made the process of treating and managing the diseases extremely complicated and nearly impossible. After conducting my own research, I realized that the treatments prescribed for autoimmune diseases were actually exacerbating my FMF, and my treatment had effectively reached a dead end.
@@ -20,32 +17,12 @@ This experience inspired me to create a system that helps others, who are suffer
 ### Importance
 This project aims to tackle the diagnostic delay and inaccuracies often associated with rare diseases and misdiagnosed conditions. Many of these patients have been ignored by the healthcare system or have been wrongly treated for years. DiagnosAI provides a public-facing platform that allows individuals to input their symptoms and medical histories, receive personalized diagnostic insights, and be guided toward the appropriate specialists, tests, and treatments. The platform will also provide insights into potential drug conflicts, helping patients avoid harmful interactions.
 
-## Data sources and AI methods
-
-### Data Sources:
-- **MIMIC-III / MIMIC-IV**: De-identified patient data for training symptom-diagnosis models.
-- **Orphanet**: Clinical and genetic data for building the rare disease knowledge base.
-- **ClinVar & Ensembl**: Genetic variant databases to link mutations with diseases.
-- **DrugBank & RxNorm**: Information on drugs and interactions to identify treatment conflicts.
-- **PubMed / Medline**: Medical literature for enriching knowledge graphs and NLP models.
-- **Patient Advocacy Groups**: Data from registries and case studies for training and validating the models.
-
-### AI Methods:
-- **NLP (Natural Language Processing)**: To process symptom descriptions and extract useful features (e.g., using **spaCy**).
-- **Machine Learning (ML)**: Algorithms like **Random Forest** and **XGBoost** for diagnosing based on symptoms.
-- **Deep Learning**: **LSTM** or **Transformer models** for analyzing symptom progression over time.
-- **Knowledge Graphs**: Mapping relationships between symptoms, diseases, and treatments to improve accuracy.
-- **Rule-based + ML Hybrid Models**: For predicting drug interactions and conflicts.
-
-### Use of Data
-The data will be used to train AI models that detect patterns in symptoms, flag genetic and autoimmune disease indicators, and identify drug interactions. The knowledge graph will continue to evolve as more data is added, improving diagnostic accuracy over time.
-
 ## How is it used?
 
 ### Target Users:
 1. **Patients**: Individuals suffering from chronic, unexplained, misdiagnosed, or rare diseases.
 2. **Physicians & Specialists**: Healthcare professionals needing advanced diagnostic support for complex, atypical cases.
-3. **Genetic Testing Companies & Research Institutions**: Aiming to enhance patient engagement and optimize data usage for better clinical outcomes. 
+3. **Genetic Companies & Research Institutions**: Aiming to enhance patient engagement and optimize data usage for better clinical outcomes. 
    
 ### Process:
 1. **Input Data**: Patients provide symptoms, medical history, and genetic data.
@@ -53,6 +30,32 @@ The data will be used to train AI models that detect patterns in symptoms, flag 
 3. **Recommendations**: DiagnosAI suggests specialist referrals, diagnostic tests, and personalized treatment options.
 4. **Drug Conflict Detection**: The system identifies potential drug interactions based on patient history.
 5. **Symptom Tracking**: Over time, the system tracks symptom progression and adapts diagnostic recommendations accordingly.
+
+## Data sources and AI methods
+
+### Data Sources
+
+| Data Source | Description |
+| ----------- | ----------- |
+| **MIMIC-III / MIMIC-IV** | De-identified patient data for diagnosis training |
+| **Orphanet** | Rare disease clinical and genetic data |
+| **ClinVar & Ensembl** | Genetic variant databases to link mutations with diseases |
+| **DrugBank / RxNorm** | Drug information and interactions |
+| **PubMed / Medline** | Medical literature for enriching knowledge graphs and NLP models |
+| **Patient Advocacy Groups** | Data from registries and case studies for training and validating the models |
+
+### AI Methods
+
+| AI Method | Description |
+| ----------- | ----------- |
+| **NLP (Natural Language Processing)** | To process symptom descriptions and extract useful features (e.g., using spaCy) |
+| **Machine Learning (ML)** | Algorithms like Random Forest and XGBoost for diagnosing based on symptoms |
+| **Deep Learning** | LSTM or Transformer models for analyzing symptom progression over time |
+| **Knowledge Graphs** | Mapping relationships between symptoms, diseases, and treatments to improve accuracy |
+| **Rule-based + ML Hybrid Models** | For predicting drug interactions and conflicts |
+
+### Use of Data
+The data will be used to train AI models that detect patterns in symptoms, flag genetic and autoimmune disease indicators, and identify drug interactions. The knowledge graph will continue to evolve as more data is added, improving diagnostic accuracy over time.
 
 ## Challenges
 
