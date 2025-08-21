@@ -89,7 +89,7 @@ This project is inspired by my personal journey in health and the experiences of
 * Orphanet
 * Numerous healthcare professionals and geneticists contributing to research on rare diseases
 
-I would also like to thank **MinnaLearn** and the **University of Helsinki** for helping shape the technical foundations of this project by hosting the Artificial Intelligence Collection courses, and for expanding awareness, knowledge, and the collective ability to apply artificial intelligence in a positive and constructive way.
+I would also like to thank **MinnaLearn** and the **University of Helsinki** for helping shape the technical foundations of this project by hosting the Artificial Intelligence courses, and for expanding awareness, knowledge, and the collective ability to apply artificial intelligence in a positive and constructive way.
 
 ## Prototype Code
 
