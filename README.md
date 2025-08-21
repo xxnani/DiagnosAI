@@ -1,5 +1,5 @@
 # DiagnosAI
-Building AI Course Project : AI Health Navigator for Rare Genetic Disease Detection and Treatment Guidance
+Building AI Course Project : AI Health Navigator for Rare Disease Detection and Treatment Guidance
 
 ## Summary
 
