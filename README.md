@@ -1,6 +1,9 @@
 # DiagnosAI
 Building AI Course Project : AI Health Navigator for Rare Disease Detection and Treatment Guidance
 
+⚠️ This project is for academic and non-commercial use only.
+See [Intellectual Property and Usage Notice](#intellectual-property-and-usage-notice) for details.
+
 ## Summary
 
 DiagnosAI is an AI-powered health navigator that aims to help individuals suffering from rare genetic diseases and misdiagnosed conditions by analyzing their symptoms, genetic history, medical data, and drug experiences. It empowers patients to actively participate in their diagnostic journey, provides personalized recommendations, and guides them toward effective treatments.
@@ -90,6 +93,17 @@ This project is inspired by my personal journey in health and the experiences of
 * Numerous healthcare professionals and geneticists contributing to research on rare diseases
 
 I would also like to thank **MinnaLearn** and the **University of Helsinki** for helping shape the technical foundations of this project by hosting the Artificial Intelligence courses, and for expanding awareness, knowledge, and the collective ability to apply artificial intelligence in a positive and constructive way.
+
+## Intellectual Property and Usage Notice
+
+DiagnosAI is an original academic project created by Nani Akbari as a final project for the University of Helsinki’s Artificial Intelligence course.
+
+All intellectual property rights, including code, documentation, and concepts, are reserved by the author.  
+This repository is publicly available for academic and non-commercial purposes only.
+
+Any commercial use, reproduction, distribution, or derivative work without explicit written permission from the author is strictly prohibited.
+
+For inquiries regarding licensing, collaboration, or commercial use, please contact: 227522643+xxnani@users.noreply.github.com
 
 ## Prototype Code
 
