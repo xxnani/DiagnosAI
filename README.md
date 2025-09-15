@@ -98,7 +98,7 @@ I would also like to thank **MinnaLearn** and the **University of Helsinki** for
 
 DiagnosAI is an original academic project created by Nani Akbari as a final project for the University of Helsinki’s Artificial Intelligence course.
 
-All intellectual property rights, including code, documentation, and concepts, are reserved by the author.  
+All intellectual property rights, including ideas, code, documentation, and concepts, are reserved by the author.  
 This repository is publicly available for academic and non-commercial purposes only.
 
 Any commercial use, reproduction, distribution, or derivative work without explicit written permission from the author is strictly prohibited.
