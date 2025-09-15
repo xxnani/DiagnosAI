@@ -1,3 +1,5 @@
+![License: Non-Commercial](https://img.shields.io/badge/License-Custom--NonCommercial-red)
+
 # DiagnosAI
 Building AI Course Project : AI Health Navigator for Rare Disease Detection and Treatment Guidance
 
