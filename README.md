@@ -1,8 +1,6 @@
 # DiagnosAI
-University of Helsinki Building AI Course Project : AI Health Navigator for Rare Disease Detection and Treatment Guidance
-
-⚠️ This project is for academic and non-commercial use only.
-See [Intellectual Property](#intellectual-property) for details.
+University of Helsinki Building AI Course Project : AI Health Navigator for Rare and Genetic Disease Detection and Treatment Guidance
+⚠️ This project is for academic and non-commercial useq only. See [Intellectual Property](#intellectual-property) for details.
 
 ## Summary
 
