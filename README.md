@@ -103,7 +103,7 @@ This repository is publicly available for academic and non-commercial purposes o
 
 Any commercial use, reproduction, distribution, or derivative work without explicit written permission from the author is strictly prohibited.
 
-For inquiries regarding licensing, collaboration, or commercial use, please contact: 227522643+xxnani@users.noreply.github.com
+For inquiries regarding licensing, collaboration, or commercial use, please contact: diagnosai.project@gmail.com
 
 ## Prototype Code
 
