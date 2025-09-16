@@ -2,7 +2,7 @@
 Building AI Course Project : AI Health Navigator for Rare Disease Detection and Treatment Guidance
 
 ⚠️ This project is for academic and non-commercial use only.
-See [Intellectual Property and Usage Notice](#intellectual-property-and-usage-notice) for details.
+See [Intellectual Property](#intellectual-property) for details.
 
 ## Summary
 
@@ -94,8 +94,7 @@ This project is inspired by my personal journey in health and the experiences of
 
 I would also like to thank **MinnaLearn** and the **University of Helsinki** for helping shape the technical foundations of this project by hosting the Artificial Intelligence courses, and for expanding awareness, knowledge, and the collective ability to apply artificial intelligence in a positive and constructive way.
 
-## Intellectual Property and Usage Notice
-
+## Intellectual Property
 DiagnosAI is an original academic project created by Nani Akbari as a final project for the University of Helsinki’s Artificial Intelligence course.
 
 All intellectual property rights, including ideas, code, documentation, and concepts, are reserved by the author.  
